@@ -20,6 +20,11 @@ export const METADATA = {
   themeColor: "#000000",
 };
 
+export const NAME = {
+  first: "Matteo",
+  last: "Marino",
+};
+
 export const MENULINKS = [
   {
     name: "Home",
@@ -139,6 +144,30 @@ export const PROJECTS = [
     gradient: ["#3F51B5", "#7986CB"],
     url: "https://comointelvilodges.it",
     tech: ["nextjs", "react", "mongodb", "tailwindcss"],
+  },
+  {
+    name: "Joker Pizza",
+    imageKey: "jokerpizza",
+    description: "Sito web per una pizzeria moderna 🍕",
+    gradient: ["#E74C3C", "#000000"],
+    url: "https://jokerpizza.it",
+    tech: ["nextjs", "react", "tailwindcss"],
+  },
+  {
+    name: "Quelli dell'Alba",
+    imageKey: "quellidellalba",
+    description: "Sito web per un bar o locale di ritrovo ☕",
+    gradient: ["#F39C12", "#F1C40F"],
+    url: "https://quellidellalba.it",
+    tech: ["nextjs", "react", "tailwindcss"],
+  },
+  {
+    name: "Gaspare Richichi",
+    imageKey: "gasparerichichi",
+    description: "Portfolio per fotografo professionista 📸",
+    gradient: ["#2C3E50", "#BDC3C7"],
+    url: "https://gasparerichichi.it",
+    tech: ["nextjs", "react", "tailwindcss"],
   },
 ];
 

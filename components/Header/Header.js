@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef } from "react";
 import Image from "next/image";
 import { Howl } from "howler";
 import SoundBar from "./SoundBar/SoundBar";
+import { METADATA } from "../../constants";
 
 const multiPop = new Howl({
   src: ["/sounds/multi-pop.mp3"],
@@ -34,7 +35,7 @@ const Header = ({ children }) => {
         <a href="#home" className="link">
           <Image
             src="/logo.svg"
-            alt="Logo - Matteo Marino"
+            alt={`Logo - ${METADATA.author}`}
             width={25}
             height={25}
           />

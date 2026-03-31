@@ -4,7 +4,7 @@ import gsap from "gsap";
 import Button from "../Button/Button";
 import Profiles from "../Profiles/Profiles";
 import styles from "./Hero.module.scss";
-import { MENULINKS, TYPED_STRINGS } from "../../constants";
+import { MENULINKS, TYPED_STRINGS, NAME } from "../../constants";
 
 const options = {
   strings: TYPED_STRINGS,
@@ -83,9 +83,9 @@ const Hero = () => {
         </h5>
         <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
           <span className={`relative ${styles.emphasize} staggered-reveal`}>
-            Matteo
+            {NAME.first}
           </span>
-          <span className="staggered-reveal"> Marino</span>
+          <span className="staggered-reveal"> {NAME.last}</span>
         </h1>
         <p>
           <span

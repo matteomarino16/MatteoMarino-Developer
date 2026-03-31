@@ -9,6 +9,9 @@ import airbnb from "../../public/projects/airbnb.webp";
 import medium from "../../public/projects/medium.webp";
 import inshorts from "../../public/projects/inshorts.webp";
 import tesla from "../../public/projects/tesla.webp";
+import jokerpizza from "../../public/projects/jokerpizza.jpg";
+import quellidellalba from "../../public/projects/quellidellalba.jpg";
+import gasparerichichi from "../../public/projects/gasparerichichi.jpg";
 
 export const PROJECT_IMAGES = {
   nextboss,
@@ -22,4 +25,7 @@ export const PROJECT_IMAGES = {
   medium,
   inshorts,
   tesla,
+  jokerpizza,
+  quellidellalba,
+  gasparerichichi,
 };
