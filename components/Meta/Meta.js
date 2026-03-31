@@ -11,10 +11,10 @@ const Meta = () => (
     <meta name="language" content={METADATA.language} />
     <meta name="author" content={METADATA.author} />
     <meta name="theme-color" content={METADATA.themeColor} />
-    <meta httpEquiv="content-language" content="en" />
+    <meta httpEquiv="content-language" content="it" />
 
     {/* Open Graph / Facebook */}
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content="it_IT" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={METADATA.title} />
     <meta property="og:description" content={METADATA.description} />

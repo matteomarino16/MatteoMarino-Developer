@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="w-full h-full pt-32">
           <div className="section-container flex flex-col h-full justify-end z-10 items-center py-12">
             <h1 className="font-medium text-3xl md:text-4xl text-center">
-              Feel free to connect on social media.
+              Sentiti libero di connetterti sui social media.
             </h1>
             <div className="text-center">
               <Profiles />
@@ -45,15 +45,15 @@ const Footer = () => {
                 classes="link"
                 type="secondary"
               >
-                Let&apos;s Talk
+                Parliamo
               </Button>
             </div>
             <p className="text-center text-white text-sm sm:text-base font-medium tracking-wide mt-8">
-              Developed with{" "}
+              Sviluppato con{" "}
               <button onClick={handleClick} className="link cursor-none">
                 <span className="block animate-bounce">❤️</span>
               </button>{" "}
-              by <span className="text-white">Shubh Porwal</span>
+              da <span className="text-white">Matteo Marino</span>
             </p>
           </div>
         </div>
